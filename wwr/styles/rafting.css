@@ -21,6 +21,145 @@ body {
     margin: auto;
 }
 
+header {
+    margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	max-width: 1200px;
+}
+
+header img {
+	margin: 0 0.25rem 0 1rem;
+	width: 150px;
+	height: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-item {
+    width: 100px;
+    margin: 0px;
+    border: 3px solid #e0d7d7;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    background-color: var(--primary-color);
+    border-radius: 3px;
+}
+
+
+
+/** History Gird Starts Here **/
+
+.history-grid {
+    display: grid;
+    grid-gap: 15px;
+    /* border: 2px solid #000; */
+    background-color: var(--secondary-color);
+}
+
+.history-grid img{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    width: 400px;
+    border-radius: 5px;
+    margin-top: 26px;
+}
+
+.history-grid h2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: center;
+    border-bottom: 3px solid var(--primary-color);
+}
+
+.history-item-1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    line-height: 30px;
+
+}
+
+.history-item-2{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    align-items: end;
+    line-height: 30px;
+
+}
+
+/** History Gird Ends Here **/
+
+
+/** ADVENTURE Gird Ends Here **/
+
+.adventure-grid{
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(6, 1fr);
+    margin: 20px;
+    /* border: 2px solid #000;  */
+}
+
+.adventure-grid h4 {
+    text-align: center;
+}
+
+.adventure-grid img{
+    width: 150px;
+    padding: 10px 20px 0px 30px;
+    border-radius: 25px;
+}
+
+.adventure-grid h2{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 3px solid var(--primary-color);
+
+}
+
+.adv-1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.adv-2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+
+/** FOOTER Gird Ends Here **/
+
+footer {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    border: 2px solid var(--accent2-color);  
+    margin-top: 70px;
+    padding: 10px;
+    background-color: var(--accent2-color);
+}
+
+footer p{
+    text-align: center;
+}
+
+footer img {
+    width: 30px;
+    padding: 10px 20px 0px 10px;
+}
+
+
+
+
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
