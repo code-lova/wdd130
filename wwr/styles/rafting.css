@@ -61,6 +61,8 @@ nav {
     grid-gap: 15px;
     /* border: 2px solid #000; */
     background-color: var(--secondary-color);
+    padding: 10px 20px 0px 30px;
+    
 }
 
 .history-grid img{
@@ -137,7 +139,7 @@ nav {
 }
 
 
-/** FOOTER Gird Ends Here **/
+/** FOOTER Gird STARTS Here **/
 
 footer {
     display: grid;
@@ -157,6 +159,7 @@ footer img {
     padding: 10px 20px 0px 10px;
 }
 
+/** FOOTER Gird ENDS Here **/
 
 
 
