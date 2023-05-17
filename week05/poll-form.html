@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | HTML Form - User Pool</title>
+    <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+<body>
+    <header>
+    <h1>WDD 130 | HTML Form - User Pool</h1>
+    </header>
+    <main>
+        <form action="">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <!-- Form element will go here-->
+                <div class="form-item column2">
+                    <label for="fullname">Fill Name:</label>
+                    <input type="text" id="fullname" name="fullname">
+                </div>
+
+                <div class="form-item column2">
+                    <label for="useremail">Email:</label>
+                    <input type="email" id="useremail" name="useremail">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <!--Form element goes here -->
+                <div class="form-item column1">
+                    <label for="browser">What is your favourite internet browser?</label>
+                    <select name="browser" id="browser">
+                        <option value="chrome">Chrome</option>
+                        <option value="firefox">Firefox</option>
+                        <option value="safari">Safari</option>
+                        <option value="edge">Edge</option>
+                        <option value="brave">Brave</option>
+                        <option value="other">Other</option>
+                    </select><br>
+                </div>
+                <div class="form-item column3">
+                    <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" id="pet" name="pet">
+                </div>
+                <div class="form-item textarea">
+                    <label for="feedback">List the places you have lived: </label>
+                    <textarea name="feedback" id="feedback" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali"></textarea>
+                </div>
+            </fieldset>
+            <button type="submit">Submit Pool</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy;2023 | HTML Form - User Pool Activity| Ebizo Jeremiah</p>
+    </footer>
+    
+</body>
+</html>
