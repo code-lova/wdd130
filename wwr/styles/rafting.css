@@ -41,6 +41,11 @@ nav {
     justify-content: center;
 }
 
+nav a:hover {
+    background-color: var(--nav-background-color);
+    color: var(--primary-color);
+}
+
 .flex-item {
     width: 100px;
     margin: 0px;
@@ -96,6 +101,271 @@ nav {
 }
 
 /** History Gird Ends Here **/
+
+
+/** HOME PAGE STYLES STARTS HERE **/
+
+
+.home img{
+    display: block;
+    width: 100%;
+    height: 550px;
+}
+
+.home {
+    position: relative;
+}
+
+
+
+.home h1 {
+    top: 30%;
+    left: 15%;
+    position: absolute;
+    padding: 30px;
+    color: #fff;
+    margin: 0px;
+    font-size:4rem;
+}
+
+.home h4{
+    top: 25%;
+    left: 15%;
+    position: absolute;
+    padding: 30px;
+    color: #fff;
+    margin: 0px;
+    font-size:2rem;
+}
+
+.home a{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: 2px solid var(--primary-color);
+    font-size: 1.1rem;
+    padding: 1.25rem;
+    text-decoration: none;
+    top: 60%;
+    left: 43%;
+    position: absolute;
+    border: 2px solid var(--primary-color);
+    
+}
+
+.home a:hover {
+    background-color: #fff;
+    color: var(--primary-color);
+}
+
+.home-grid {
+    display: grid;
+    grid-gap: .1rem;
+    /* border: 2px solid #000; */
+   /** background-color: var(--secondary-color); **/
+    grid-template-rows: 1fr 1fr;
+    padding: 5px 20px 0px 30px;
+    margin-top: 40px;
+    
+}
+
+.home-grid h2{
+    grid-row-start: 1;
+    grid-row-end: 1;
+    text-align: center;
+    border-bottom: 2px dotted var(--primary-color);
+}
+
+.home-item{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    line-height: 30px;
+    text-align: center;
+}
+
+.home-img h2{
+ text-align: center;
+
+}
+
+.home-adventure-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /*border: 2px solid #000;  */
+    margin-top: 20px;
+    padding: 5px 36px 15px 51px;
+    margin: 40px;
+
+}
+
+.home-adventure-grid h3{
+    text-align: center;
+}
+
+.home-adventure-grid p{
+    text-align: center;
+    width: 300px;
+}
+
+.home-adventure-grid a{
+text-decoration: none;
+color: var(--primary-color);
+}
+
+
+
+.testimony h2{
+    text-align: center;
+    margin: 20px;
+    border-bottom: 2px dotted var(--nav-background-color);
+    padding: 20px;
+}
+
+.home-testimony-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 5px 36px 15px 51px;
+    margin: 10px;
+}
+
+.home-testimony-grid p{
+    text-align: center;
+    width: 500px;
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
+
+}
+
+.home-testimony-grid h4{
+    text-align: center;
+    width: 500px;
+}
+
+
+.sponsors-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 50px;
+    background-color: var(--nav-hover-background-color);
+    padding: 5px 30px 43px 10px;
+
+}
+
+.sponsors-grid img{
+    width: 250px;
+    height: 117px ;
+    padding: 20px;
+}
+
+.sponsors h2{
+    text-align: center;
+    color: var(--primary-color);
+    font-family: var(--paragraph-font);
+    font-size: 3rem;
+}
+
+
+
+
+
+
+
+
+
+/** HOME PAGE STYLES ENDS HERE **/
+
+
+
+
+
+/*--TRIPS STYLES STARTS HERE */
+
+
+.trip-grid {
+    display: grid;
+    grid-gap: .1rem;
+    /* border: 2px solid #000; */
+    background-color: var(--secondary-color);
+    grid-template-rows: 1fr 1fr;
+    padding: 5px 20px 0px 30px;
+    
+}
+
+
+.trip-grid h2{
+    grid-row-start: 1;
+    grid-row-end: 1;
+    text-align: center;
+    border-bottom: 2px dotted var(--primary-color);
+}
+
+.trip-item{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    line-height: 30px;
+    text-align: center;
+}
+
+
+.trips-img-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /*border: 2px solid #000;  */
+    margin-top: 20px;
+
+}
+
+.trips-img-grid h4 {
+    text-align:left;
+    margin-left: 22px;
+
+}
+
+.trips-img-grid p{
+    text-align: justify;
+    width: 350px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+}
+
+.trips-img-grid img{
+    width: 350px;
+    margin: 25px;
+}
+
+.trips-img-grid a{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: 2px solid var(--primary-color);
+    border-radius: .5rem;
+    font-size: 1.1rem;
+    padding: .75rem;
+    text-decoration: none;
+    margin-top: 10px;
+    position: absolute;
+    display: grid;
+}
+
+.trips-2 a{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+
+}
+
+.trips-img-grid a:hover {
+    background-color: #fff;
+    color: var(--primary-color);
+}
+
+.trips-img-grid a {
+   text-decoration: none;
+}
+
+
+/*--TRIPS STYLES ENDS HERE */
+
+
+
+
 
 
 
